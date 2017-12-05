@@ -1,0 +1,49 @@
+﻿body {
+}
+
+fieldset {
+display:inline-block;
+margin-right:20px;
+margin-left:20px;
+}
+
+.container {
+background-color:white;
+margin:20px 20px 20px 20px ;  
+}
+
+#fsBulkStudentUpload {
+min-width:400px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+input {
+margin-bottom:10px;
+padding-left:5px;
+font-size:13px;
+margin-left: 40px;
+height:30px;
+border-radius:5px;
+}
+
+#fsSearchStudent {
+width:500px;
+height:100px;
+}
+
+.searchStudent, .upload {
+background-color:#eb1a32; 
+color:white;
+}
+
+.searchStudent:hover,.upload:hover {
+opacity: 0.8;
+}
+
+.searchResult {
+margin-left:50px;
+padding-bottom:20px;
+}
