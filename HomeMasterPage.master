@@ -1,0 +1,58 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMasterPage.master.cs" Inherits="HomeMasterPage" MasterPageFile="~/ILMPMasterPage.master"%>
+
+<asp:Content ID="homeMaster" ContentPlaceHolderID="masterHead" runat="server">
+    <link href="/styles/home.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="homeMasterHead" runat="server">     
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="homeMasterCont" ContentPlaceHolderID="masterContent" runat="server">  
+       <asp:HiddenField ID="hdnStudentId" runat="server" />
+          <div id="nav" >
+				<ul>					
+					<li runat="server" id="liStudent"><a href="#" id="aStudent" runat="server">Student</a>
+                        <ul>
+                            <li><a href="StudentList.aspx">Student List</a></li>
+                        </ul>
+					</li>
+					<li  runat="server" id="liCourse"><a href="#">Course</a>
+                        <ul>
+                            <li><a href="CourseList.aspx">Course List</a></li>
+                        </ul>
+                    </li>
+					<li runat="server" id="liCourseOffering"><a href="#">Course Offering</a>
+                        <ul>                          
+                            <li><a href="CourseOfferingList.aspx">CourseOfferingList</a></li>
+                        </ul>
+					</li>
+					<li runat="server" id="liIlmp" ><a href="#" runat="server" onserverclick="liIlmp_ServerClick">ILMP</a>
+						<ul runat="server" id="liIlmpMenuitems">
+							<li runat="server" id="liILMPTemplate"><a href="ILMPTemplate.aspx">Create Template</a></li>							
+                            <li runat="server" id="liILMPCreation"><a href="ILMP.aspx">Create ILMP</a></li>
+							<li runat="server" id="liILMPListStaff"><a href="ILMPListStaff.aspx">ILMP List</a></li>
+                            <li runat="server" id="liILMPList"><a href="ILMPList.aspx">View ILMP</a></li>
+						</ul>
+					</li>
+					<li runat="server" id="liSemesterResult"><a href="#">Semester Result</a>
+                         <ul>                          
+                            <li><a href="UploadResult.aspx">Upload Results</a></li>
+                        </ul>
+					</li>
+					<li runat="server" id="liReports"><a href="#">Reports</a>
+                      <ul>
+                            <li runat="server" id="liStudentList"><a href="StudentListReport.aspx">StudentListReport</a></li>
+                            <li runat="server" id="liCourseList"><a href="CourseListReport.aspx">CourseListReport</a></li>
+                        </ul>
+                     </li>
+                    <li runat="server" id="liProfile"><a href="#">Profile</a>
+                        <ul>
+                            <li runat="server" id="liChangePassword"><a href="ChangePassword.aspx">Change Password</a></li>
+                            <li runat="server" id="liLogout"><a href="#" runat="server" onserverclick="aLogout_ServerClick">Logout</a></li>
+                        </ul>
+                    </li>
+				</ul>
+              </div>
+		<div class="clear"></div>		
+    <asp:ContentPlaceHolder id="homeMasterContent" runat="server">        
+    </asp:ContentPlaceHolder>
+</asp:Content>

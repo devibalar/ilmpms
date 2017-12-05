@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ILMPMasterPage.master.cs" Inherits="ILMPMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Individual Learning Management Plan</title>
+    <link href="/styles/common.css" rel="stylesheet" type="text/css" />  
+    <asp:ContentPlaceHolder id="masterHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="ILMPMasterForm" runat="server">
+        <!--div class="container-fluid">
+            <div class="clear:both; text-center;margin:0">
+            <img src="/images/ilmp_banner.png" alt="Logo"/>  
+            </div>
+        </div-->
+        	<div id="wrapper">
+			    <div id="header">
+			        <img src="images/header.png" alt="Logo" height="150" width="985"/>
+			    </div>   
+                <asp:ContentPlaceHolder id="masterContent" runat="server">
+                </asp:ContentPlaceHolder>
+                <div id="content">
+                    <div class="clear">                           
+                    </div> 						
+			    </div>                  
+                <div id="footer">Copyright &copy; 2017 AIS. All rights reserved.</div>       					                    
+			</div>			 
+    </form>
+    
+    <!--footer class="container-fluid text-center">             
+        <p> Copyright &copy 2017 Auckland Institute of Studies </p>         
+    </footer-->     
+</body>
+</html>
