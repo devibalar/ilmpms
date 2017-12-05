@@ -1,0 +1,9 @@
+CourseCode,Title,Programme,Type,Major,Credits,Level,Notes,Prerequisite,Corequisite
+7.711,Desktop App Development,GDIT,ELE,SD,15,5,Every semester,7.103,NA
+7.712,Information Technology Project ,BIT & GDIT,ELE,SD&IS&NW,30,5,Two semester per year,NA,NA
+7.713,Advanced Computer Networking,BIT & GDIT,ELE,NW&IS,15,6,Two semester per year,NA,7.222
+7.714,Testing Course1,BIT,COM,IS,15,7,,7.101,NA
+7.715,Testing Course2,BIT&GDIT,COM,IS,15,7,,7.321&7.101,NA
+7.716,Testing Course3,BIT&GDIT,COM,IS&NW,15,7,Once in a year,7.321&7.101,7.301
+7.717,Testing Course4,BIT&GDIT,COM,IS&SD&NW,15,6,Every semester,7.101,7.301
+7.718,Testing Course5,GDIT,SPN,IS&SD,15,6,Every semester,NA,NA

@@ -1,0 +1,1020 @@
+********** 8/22/2017 9:20:54 PM **********
+Exception Type: System.Web.HttpException
+Exception: 403 occurred.Page cannnot be accessed. Forbidden 
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/22/2017 9:21:31 PM **********
+Exception Type: System.Web.HttpException
+Exception: 403 occurred.Page cannnot be accessed. Forbidden 
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/22/2017 9:21:36 PM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/22/2017 9:21:36 PM **********
+Exception Type: System.Web.HttpException
+Exception: 403 occurred.Page cannnot be accessed. Forbidden 
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/22/2017 9:23:50 PM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/22/2017 9:26:29 PM **********
+Exception Type: System.InvalidOperationException
+Exception: ExecuteNonQuery requires the command to have a transaction when the connection assigned to the command is in a pending local transaction.  The Transaction property of the command has not been initialized.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 341
+
+********** 8/22/2017 9:29:02 PM **********
+Exception Type: System.Web.HttpException
+Exception: 403 occurred.Page cannnot be accessed. Forbidden 
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/22/2017 9:32:51 PM **********
+Exception Type: System.Web.HttpException
+Exception: 403 occurred.Page cannnot be accessed. Forbidden 
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/22/2017 9:34:12 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The parameterized query '(@CourseCode nvarchar(5),@AllPrerequisites nvarchar(4000))UPDATE' expects the parameter '@AllPrerequisites', which was not supplied.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 390
+
+********** 8/22/2017 9:34:25 PM **********
+Exception Type: System.Web.HttpException
+Exception: 403 occurred.Page cannnot be accessed. Forbidden 
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 1:03:40 AM **********
+Exception Type: System.InvalidOperationException
+Exception: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 190
+
+********** 8/23/2017 1:04:09 AM **********
+Exception Type: System.InvalidOperationException
+Exception: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 190
+
+********** 8/23/2017 1:07:12 AM **********
+Exception Type: System.InvalidOperationException
+Exception: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 190
+
+********** 8/23/2017 2:07:59 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at UploadCourseOffering.WriteErrorsIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 257
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 195
+
+********** 8/23/2017 2:12:42 AM **********
+Exception Type: System.IO.IOException
+Exception: The process cannot access the file 'C:\DeviBala\WebAppDev\Websites\ILMPApplication\Files\CourseOffering1.csv' because it is being used by another process.
+Source: Error Page
+Stack Trace: 
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at System.Web.HttpPostedFile.SaveAs(String filename)
+   at System.Web.UI.WebControls.FileUpload.SaveAs(String filename)
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 106
+
+********** 8/23/2017 2:12:45 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at UploadCourseOffering.WriteErrorsIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 257
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 195
+
+********** 8/23/2017 2:14:46 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at UploadCourseOffering.WriteErrorsIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 264
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 195
+
+********** 8/23/2017 2:17:53 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at UploadCourseOffering.WriteErrorsIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 264
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 195
+
+********** 8/23/2017 2:23:48 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at UploadCourseOffering.WriteErrorsIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 264
+   at UploadCourseOffering.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourseOffering.aspx.cs:line 195
+
+********** 8/23/2017 3:29:36 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The parameterized query '(@CourseCode nvarchar(5),@AllPrerequisites nvarchar(4000))UPDATE' expects the parameter '@AllPrerequisites', which was not supplied.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 390
+
+********** 8/23/2017 3:31:08 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 3:32:18 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The parameterized query '(@CourseCode nvarchar(5),@AllPrerequisites nvarchar(4000))UPDATE' expects the parameter '@AllPrerequisites', which was not supplied.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 390
+
+********** 8/23/2017 3:38:51 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The parameterized query '(@CourseCode nvarchar(5),@AllPrerequisites nvarchar(4000))UPDATE' expects the parameter '@AllPrerequisites', which was not supplied.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 390
+
+********** 8/23/2017 3:55:11 AM **********
+Exception Type: System.InvalidOperationException
+Exception: There is already an open DataReader associated with this Command which must be closed first.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 426
+
+********** 8/23/2017 3:55:11 AM **********
+Exception Type: System.InvalidOperationException
+Exception: There is already an open DataReader associated with this Command which must be closed first.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlInternalTransaction.Rollback()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 455
+   at CourseBO.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\bo\CourseBO.cs:line 57
+   at EditCourse.btnUpdateCourse_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\EditCourse.aspx.cs:line 483
+
+********** 8/23/2017 3:57:29 AM **********
+Exception Type: System.InvalidOperationException
+Exception: There is already an open DataReader associated with this Command which must be closed first.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 426
+
+********** 8/23/2017 3:57:29 AM **********
+Exception Type: System.InvalidOperationException
+Exception: There is already an open DataReader associated with this Command which must be closed first.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlInternalTransaction.Rollback()
+   at System.Data.SqlClient.SqlTransaction.Rollback()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 455
+   at CourseBO.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\bo\CourseBO.cs:line 57
+   at EditCourse.btnUpdateCourse_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\EditCourse.aspx.cs:line 483
+
+********** 8/23/2017 4:03:26 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The parameterized query '(@CourseCode nvarchar(4000))SELECT Title,Credits,Level,AllPrereq' expects the parameter '@CourseCode', which was not supplied.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at CourseDaoImpl.GetCourseDetailsForCourseCode(String incourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 93
+
+********** 8/23/2017 4:03:42 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 4:09:18 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 4:10:34 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 4:14:26 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:07:57 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 257
+
+********** 8/23/2017 5:07:57 AM **********
+Exception Type: CustomException
+Exception: Unhandled Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at CourseBO.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\bo\CourseBO.cs:line 47
+   at UploadCourse.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourse.aspx.cs:line 195
+
+********** 8/23/2017 5:09:01 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 257
+
+********** 8/23/2017 5:09:04 AM **********
+Exception Type: CustomException
+Exception: Unhandled Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at CourseBO.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\bo\CourseBO.cs:line 47
+   at UploadCourse.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourse.aspx.cs:line 195
+
+********** 8/23/2017 5:12:09 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 257
+
+********** 8/23/2017 5:12:52 AM **********
+Exception Type: CustomException
+Exception: Unhandled Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at CourseBO.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\bo\CourseBO.cs:line 47
+   at UploadCourse.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourse.aspx.cs:line 195
+
+********** 8/23/2017 5:16:14 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 257
+
+********** 8/23/2017 5:16:14 AM **********
+Exception Type: CustomException
+Exception: Unhandled Exception: The INSERT statement conflicted with the FOREIGN KEY constraint "FK_CourseProgramme2". The conflict occurred in database "dbILMPV8", table "dbo.ProgrammeMajor".
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at CourseBO.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\bo\CourseBO.cs:line 47
+   at UploadCourse.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourse.aspx.cs:line 195
+
+********** 8/23/2017 5:19:22 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: Error Page
+Stack Trace: 
+   at UploadCourse.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourse.aspx.cs:line 157
+
+********** 8/23/2017 5:20:02 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: Error Page
+Stack Trace: 
+   at UploadCourse.BtnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadCourse.aspx.cs:line 157
+
+********** 8/23/2017 5:34:22 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:34:57 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:35:07 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:35:41 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:36:26 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:37:22 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:38:15 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 5:38:56 AM **********
+Exception Type: System.Web.HttpException
+Exception: Internal server error. Please try again later
+Source: customErrors section - Web.config
+Stack Trace: 
+********** 8/23/2017 6:05:46 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, IS, BIT-IS).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/23/2017 6:06:04 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: String or binary data would be truncated.
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 47
+
+********** 8/23/2017 6:08:27 AM **********
+Exception Type: System.InvalidOperationException
+Exception: The connection was not closed. The connection's current state is connecting.
+Source: Error Page
+Stack Trace: 
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CourseDaoImpl.GetCourseDetailsForTemplate(CourseProgrammeVO courseProgarmmeVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 134
+
+********** 8/23/2017 6:08:33 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, IS, BIT-IS-Test).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/23/2017 6:09:52 AM **********
+Exception Type: System.InvalidOperationException
+Exception: The connection was not closed. The connection's current state is connecting.
+Source: Error Page
+Stack Trace: 
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CourseOfferingDaoImpl.GetOfferedCoursesForPgmMajor(Int32 semester, Int32 year, String programmeId, String majorId) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseOfferingDaoImpl.cs:line 210
+
+********** 8/23/2017 6:09:52 AM **********
+Exception Type: System.InvalidOperationException
+Exception: The connection was not closed. The connection's current state is connecting.
+Source: Error Page
+Stack Trace: 
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CourseDaoImpl.GetCourseDetailsForTemplate(CourseProgrammeVO courseProgarmmeVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 134
+
+********** 8/23/2017 6:10:14 AM **********
+Inner Exception Type: System.ComponentModel.Win32Exception
+Inner Exception: The wait operation timed out
+Inner Source: 
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=20736; handshake=0; 
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CourseOfferingDaoImpl.FillYearForSemester(Int32 semester) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseOfferingDaoImpl.cs:line 399
+
+********** 8/23/2017 6:10:15 AM **********
+Inner Exception Type: System.ComponentModel.Win32Exception
+Inner Exception: The wait operation timed out
+Inner Source: 
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=20736; handshake=0; 
+Source: Error Page
+Stack Trace: 
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CourseOfferingDaoImpl.FillYearForSemester(Int32 semester) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseOfferingDaoImpl.cs:line 399
+
+********** 8/23/2017 6:38:19 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, IS, BIT-IS).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/23/2017 6:44:02 AM **********
+Exception Type: System.InvalidOperationException
+Exception: The connection was not closed. The connection's current state is connecting.
+Source: Error Page
+Stack Trace: 
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StudentDaoImpl.GetStudentNameForId(Int32 studentid) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\StudentDaoImpl.cs:line 199
+
+********** 8/23/2017 6:44:12 AM **********
+Exception Type: System.NullReferenceException
+Exception: Object reference not set to an instance of an object.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at CourseDaoImpl.GetCourseDetailsForCourseCode(String incourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 87
+
+********** 8/23/2017 6:45:05 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, IS, BIT-IS).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/23/2017 6:47:08 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Must declare the scalar variable "@Active".
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at ILMPDaoImpl.UpdateILMPStatusForStudent(Int32 studentId, Int32 ilmpId) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPDaoImpl.cs:line 375
+
+********** 8/24/2017 6:29:51 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of PRIMARY KEY constraint 'PK_Student'. Cannot insert duplicate key in object 'dbo.Student'. The duplicate key value is (20162233).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at StudentDaoImpl.AddStudent(StudentVO instudent) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\StudentDaoImpl.cs:line 33
+
+********** 8/24/2017 7:24:15 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of PRIMARY KEY constraint 'PK_CourseCode'. Cannot insert duplicate key in object 'dbo.Course'. The duplicate key value is (8.976).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.AddCourse(CourseVO inCourse) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 241
+
+********** 8/24/2017 10:48:35 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: The parameterized query '(@CourseCode nvarchar(5),@PrerequisiteCode nvarchar(4000),@Prere' expects the parameter '@AllPrerequisites', which was not supplied.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at CourseDaoImpl.UpdateCourse(CourseVO inCourse, String originalCourseCode) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\CourseDaoImpl.cs:line 427
+
+********** 8/24/2017 10:57:23 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at CourseListReport.WriteIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\CourseListReport.aspx.cs:line 142
+
+********** 8/24/2017 11:41:53 AM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at CourseListReport.WriteIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\CourseListReport.aspx.cs:line 142
+
+********** 8/24/2017 1:40:41 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at CourseListReport.WriteIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\CourseListReport.aspx.cs:line 142
+
+********** 8/24/2017 1:45:35 PM **********
+Exception Type: System.Threading.ThreadAbortException
+Exception: Thread was being aborted.
+Source: Error Page
+Stack Trace: 
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at CourseListReport.WriteIntoCSV() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\CourseListReport.aspx.cs:line 133
+
+********** 8/24/2017 4:48:29 PM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (GDIT, SD, GDIT-SD).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 5:26:42 AM **********
+Inner Exception Type: System.ComponentModel.Win32Exception
+Inner Exception: The wait operation timed out
+Inner Source: 
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=15664; handshake=8121; 
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at ProgrammeDaoImpl.getAllProgram() in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ProgrammeDaoImpl.cs:line 19
+
+********** 8/25/2017 5:34:44 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD-test1).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 5:48:39 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD-test4).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 5:55:58 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD-test5).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 6:01:16 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD-test6).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 6:01:54 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD-test6).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 6:14:49 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 6:16:12 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 6:17:10 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD-custom).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 6:19:24 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Violation of UNIQUE KEY constraint 'UQ_IlmpTemplate'. Cannot insert duplicate key in object 'dbo.IlmpTemplate'. The duplicate key value is (BIT, SD, BIT-SD-custom).
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader()
+   at ILMPTemplateDaoImpl.AddILMPTemplate(ILMPTemplateVO inIlmpTemplateVO) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\ILMPTemplateDaoImpl.cs:line 26
+
+********** 8/25/2017 6:20:02 AM **********
+Exception Type: System.InvalidOperationException
+Exception: The connection was not closed. The connection's current state is connecting.
+Source: Error Page
+Stack Trace: 
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at StudentDaoImpl.GetStudentNameForId(Int32 studentid) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\App_Code\dao\StudentDaoImpl.cs:line 199
+
+********** 8/25/2017 6:59:26 AM **********
+Exception Type: System.Data.SqlClient.SqlException
+Exception: Subquery returned more than 1 value. This is not permitted when the subquery follows =, !=, <, <= , >, >= or when the subquery is used as an expression.
+The statement has been terminated.
+Source: Error Page
+Stack Trace: 
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at UploadResult.btnUpload_Click(Object sender, EventArgs e) in c:\DeviBala\WebAppDev\Websites\ILMPApplication\UploadResult.aspx.cs:line 99
+
